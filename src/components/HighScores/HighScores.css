@@ -1,0 +1,14 @@
+.highscores > div {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 230px;
+}
+.highscores {
+    animation: fadeInDown 1.3s ease forwards;
+}
+.toggleScores {
+    padding: 15px 0;
+}
+.hr {
+    border: 1px solid #ffffff36;
+}

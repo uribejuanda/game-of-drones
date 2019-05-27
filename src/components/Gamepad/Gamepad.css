@@ -1,0 +1,59 @@
+.gamepad {
+    animation: fadeInRight 1.3s ease forwards;
+}
+.gamepad .controls {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.control {
+    user-select: none;
+    display: grid;
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+}
+.control .img{
+    object-fit: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.control.rock .img{
+    background-image: url("rock.png");
+}
+.control.paper .img{
+    background-image: url("paper.png");
+}
+.control.scissor .img{
+    background-image: url("scissor.png");
+}
+.control.rock {
+    background-color: #3296b8;
+}
+.control.paper {
+    background-color: #fec658;
+}
+.control.scissor {
+    background-color: #ce1141;
+}
+.control span {
+    font-size: 2em;
+    transform-origin: 92% 39%;
+    transform: rotate(-55deg);
+    -webkit-transform: rotate(-55deg);
+    -moz-transform: rotate(-55deg);
+}
+.control:active {
+    transform: scale(1, 1.1);
+}
+.control:active span {
+    font-size: 2.4em;
+}
+@keyframes fadeInRight {
+    0% { transform: translateX(-3rem); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+}
+
+
+
+

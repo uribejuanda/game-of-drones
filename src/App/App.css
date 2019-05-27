@@ -1,0 +1,30 @@
+/*#1e1e1e gris cool*/
+.main {
+  color: #ffffff;
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.main > div {
+  padding: 5px;
+  border: 1px solid #ffffff36;
+  box-shadow: 0 0.25rem 1.25rem rgba(231, 226, 226, 0.27), 0 0 1rem rgba(244, 236, 236, 0.07);
+  border-radius: 8px;
+  max-width: 330px;
+  max-height: 613px;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

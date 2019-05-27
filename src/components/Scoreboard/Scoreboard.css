@@ -1,0 +1,29 @@
+.table {
+    display: table;
+    width: 100%;
+}
+.tableRow {
+    display: table-row;
+}
+.tableCell, .tableHead {
+    display: table-cell;
+    padding: 3px 10px;
+}
+.scoreboard {
+    margin-top: 10px;
+    border: 1px solid #ffffff36;
+    border-radius: 3px;
+    opacity: 0;
+    animation: fadeInDown 1s ease forwards;
+}
+.scoreboard .scores {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 230px;
+}
+@keyframes fadeInDown {
+    0% { transform: translateY(-3rem); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+
+

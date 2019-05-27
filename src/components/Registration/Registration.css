@@ -1,0 +1,15 @@
+.form {
+    padding: 15px 20px;
+}
+.form > div {
+    display: grid;
+    padding-bottom: 10px;
+}
+.form .label {
+    font-size: 0.9em;
+    text-align: left;
+    padding-bottom: 5px;
+}
+.form .start {
+    padding-top: 20px;
+}
